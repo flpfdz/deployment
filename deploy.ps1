@@ -1834,7 +1834,6 @@ function checks {
         if($pass -eq 'y'){Write-Host $passmsg -ForegroundColor Green}
     }
 }
-main
 
 create-resource-group
 create-storage-account
